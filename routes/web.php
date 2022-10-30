@@ -17,7 +17,7 @@ Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle']
 Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback']);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index')->withTitle('Churis Bread');
 });
 
 Route::get('/dashboard', function () {
