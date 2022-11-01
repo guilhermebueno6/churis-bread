@@ -1,0 +1,18 @@
+#best-sellers{
+    padding: 50px;
+}
+.title-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .title{
+        font-size: xx-large;
+    }
+    .line{
+        width: 40%;
+        background: #703e21;
+        height: 2px;
+    }
+}
+
