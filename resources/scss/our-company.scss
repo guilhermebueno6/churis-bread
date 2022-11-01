@@ -7,19 +7,19 @@
     justify-content: space-between;
     #specialties{
         .topic-background{
-            background: linear-gradient(to top, rgba(112, 62, 33, .2), rgba(112, 62, 33, .2)), url('/images/specialties.jpg') no-repeat top center;
+            background: linear-gradient(to top, rgba(112, 62, 33, .4), rgba(112, 62, 33, .4)), url('/images/specialties.jpg') no-repeat top center;
             background-size: cover;
         }
     }
     #our-story{
         .topic-background{
-            background: linear-gradient(to top, rgba(112, 62, 33, .2), rgba(112, 62, 33, .2)), url('/images/our-story.jpg') no-repeat top center;
+            background: linear-gradient(to top, rgba(112, 62, 33, .4), rgba(112, 62, 33, .4)), url('/images/our-story.jpg') no-repeat top center;
             background-size: cover;
         }
     }
     #ingredients{
         .topic-background{
-            background: linear-gradient(to top, rgba(112, 62, 33, .2), rgba(112, 62, 33, .2)), url('/images/ingredients.jpg') no-repeat top center;
+            background: linear-gradient(to top, rgba(112, 62, 33, .4), rgba(112, 62, 33, .4)), url('/images/ingredients.jpg') no-repeat top center;
             background-size: cover;
         }
     }
@@ -37,10 +37,10 @@
         .topic-text{
             position: absolute;
             width: 30%;
-            background-color: rgba(255, 255, 255, 0.3);
             transform: translateY(-190%);
             padding: 50px 0;
             height: 200px;
+            color: $white;
             h1{
                 font-size: xx-large;
                 }
