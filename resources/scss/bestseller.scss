@@ -4,13 +4,14 @@
 .title-wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     .title{
         font-size: xx-large;
+        margin: 0 30px;
     }
     .line{
-        width: 40%;
+        width: 30%;
         background: $primary-color;
         height: 2px;
     }
