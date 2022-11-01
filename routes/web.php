@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\GoogleSocialiteController;
+use Cornford\Googlmapper\Facades\MapperFacade;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +18,37 @@ Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle']
 Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback']);
 
 Route::get('/', function () {
+    Mapper::map(
+        43.008333019353415, 
+        -81.24089793536393,
+        [
+            'zoom' => 16,
+            'draggable' => false,
+            'marker' => true,
+            'title' => 'Churis Bread'
+        ]
+        );
     return view('index')->withTitle('Churis Bread');
+    
+       
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/location', function () {
+    Mapper::map(
+        53.3,
+        -1.4,
+        [
+            'zoom' => 16,
+            'draggable' => false,
+            'marker' => true,
+            
+
+        ]
+        );
+        print '<div style="height: 400px; width: 400px">';
+        print Mapper::render();
+        print '</div>';
+});
 
 
 

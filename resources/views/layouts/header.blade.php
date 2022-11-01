@@ -16,7 +16,7 @@
             </div>
             <div class="mainheader">
                 <div class="logo">
-                    <a href="fireplacesbyjack.php"><img style="margin: 10px 10px 10px 50px;" src="images/logoIcon.svg"></a>
+                    <a href="fireplacesbyjack.php"><img style="margin: 10px 10px 10px 50px;" src="images/logo_icon.png"></a>
                 </div>
                 <div class="buttons">
                     <a class="<?php if($title == "About Us") { echo 'underline'; } ?>" href="index.php">ABOUT US</a>
