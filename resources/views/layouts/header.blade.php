@@ -1,3 +1,4 @@
+<html lang="en">
 <head>
     <link rel="stylesheet" href="css/app.css">
     <title> {{ $title }} </title>
