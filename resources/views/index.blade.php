@@ -17,6 +17,9 @@
     <section id="membership">
         @include('layouts.membership')
     </section>
+    <section id="membership">
+        @include('layouts.delivery')
+    </section>
 
     <section id="delivery">
         @include('layouts.delivery')
