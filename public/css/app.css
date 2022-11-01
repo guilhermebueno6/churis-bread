@@ -539,6 +539,7 @@ html, body {
   border: solid 3px #b66f47;
   color: black;
   cursor: pointer;
+
 }
 
 .topics {
@@ -584,6 +585,8 @@ html, body {
 .topics .topics-item .topic-text p {
   font-size: x-large;
   padding: 0 50px;
+=======
+
 }
 
 .hidden {
