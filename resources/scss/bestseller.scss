@@ -11,8 +11,34 @@
     }
     .line{
         width: 40%;
-        background: #703e21;
+        background: $primary-color;
         height: 2px;
     }
+}
+
+.bs-block-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .item{
+        width: 500px;
+        background: $secondary-color;
+        margin-top: 50px;
+        img{
+            width: 100%;
+        }
+        .bs-body{
+            padding: 20px;
+            .top-row{
+                display: flex;
+                justify-content: space-between;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+    
+
 }
 
