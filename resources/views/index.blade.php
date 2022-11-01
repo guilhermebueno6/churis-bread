@@ -10,6 +10,9 @@
     <section id="best-sellers">
         @include('layouts.bestsellers')
     </section>
+    <section id="our-company">
+        @include('layouts.our-company')
+    </section>
 
     <section id="membership">
         @include('layouts.membership')

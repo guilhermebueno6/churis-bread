@@ -474,6 +474,29 @@ html, body {
   height: 2px;
 }
 
+.bs-block-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.bs-block-wrapper .item {
+  width: 500px;
+  background: #f8f4f4;
+  margin-top: 50px;
+}
+.bs-block-wrapper .item img {
+  width: 100%;
+}
+.bs-block-wrapper .item .bs-body {
+  padding: 20px;
+}
+.bs-block-wrapper .item .bs-body .top-row {
+  display: flex;
+  justify-content: space-between;
+}
+.bs-block-wrapper .item .bs-body p {
+  text-align: justify;
+}
 
 html, body {
   margin: 0;
@@ -516,32 +539,53 @@ html, body {
   border: solid 3px #b66f47;
   color: black;
   cursor: pointer;
+}
 
-.bs-block-wrapper {
+.topics {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.bs-block-wrapper .item {
-  width: 500px;
-  background: #f8f4f4;
-  margin-top: 50px;
-}
-.bs-block-wrapper .item img {
-  width: 100%;
-}
-.bs-block-wrapper .item .bs-body {
-  padding: 20px;
-}
-.bs-block-wrapper .item .bs-body .top-row {
-  display: flex;
+  gap: 15px;
+  background-color: #703e21;
   justify-content: space-between;
 }
-.bs-block-wrapper .item .bs-body p {
-  text-align: justify;
+.topics #specialties .topic-background {
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.2), rgba(112, 62, 33, 0.2)), url("/images/specialties.jpg") no-repeat top center;
+  background-size: cover;
+}
+.topics #our-story .topic-background {
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.2), rgba(112, 62, 33, 0.2)), url("/images/our-story.jpg") no-repeat top center;
+  background-size: cover;
+}
+.topics #ingredients .topic-background {
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.2), rgba(112, 62, 33, 0.2)), url("/images/ingredients.jpg") no-repeat top center;
+  background-size: cover;
+}
+.topics .topics-item {
+  background-repeat: no-repeat;
+  width: 30%;
+  text-align: center;
+  overflow: hidden;
+  max-height: 800px;
+}
+.topics .topics-item .topic-background {
+  height: 800px;
+  width: 100%;
+}
+.topics .topics-item .topic-text {
+  position: absolute;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-200%);
+  padding: 50px 0;
+  height: 200px;
+}
+.topics .topics-item .topic-text h1 {
+  font-size: xx-large;
+}
+.topics .topics-item .topic-text p {
+  font-size: x-large;
+  padding: 0 50px;
 }
 
 .hidden {
   display: none;
-
 }
