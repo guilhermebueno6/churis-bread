@@ -539,7 +539,6 @@ html, body {
   border: solid 3px #b66f47;
   color: black;
   cursor: pointer;
-
 }
 
 .topics {
@@ -549,15 +548,15 @@ html, body {
   justify-content: space-between;
 }
 .topics #specialties .topic-background {
-  background: linear-gradient(to top, rgba(112, 62, 33, 0.2), rgba(112, 62, 33, 0.2)), url("/images/specialties.jpg") no-repeat top center;
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.4), rgba(112, 62, 33, 0.4)), url("/images/specialties.jpg") no-repeat top center;
   background-size: cover;
 }
 .topics #our-story .topic-background {
-  background: linear-gradient(to top, rgba(112, 62, 33, 0.2), rgba(112, 62, 33, 0.2)), url("/images/our-story.jpg") no-repeat top center;
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.4), rgba(112, 62, 33, 0.4)), url("/images/our-story.jpg") no-repeat top center;
   background-size: cover;
 }
 .topics #ingredients .topic-background {
-  background: linear-gradient(to top, rgba(112, 62, 33, 0.2), rgba(112, 62, 33, 0.2)), url("/images/ingredients.jpg") no-repeat top center;
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.4), rgba(112, 62, 33, 0.4)), url("/images/ingredients.jpg") no-repeat top center;
   background-size: cover;
 }
 .topics .topics-item {
@@ -574,10 +573,10 @@ html, body {
 .topics .topics-item .topic-text {
   position: absolute;
   width: 30%;
-  background-color: rgba(255, 255, 255, 0.3);
-  transform: translateY(-200%);
+  transform: translateY(-190%);
   padding: 50px 0;
   height: 200px;
+  color: #FFFFFF;
 }
 .topics .topics-item .topic-text h1 {
   font-size: xx-large;
@@ -585,8 +584,10 @@ html, body {
 .topics .topics-item .topic-text p {
   font-size: x-large;
   padding: 0 50px;
-=======
+}
 
+.map {
+  margin-bottom: 25px;
 }
 
 .hidden {

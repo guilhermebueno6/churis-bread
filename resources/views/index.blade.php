@@ -18,6 +18,14 @@
         @include('layouts.membership')
     </section>
 
+    <section id="delivery">
+        @include('layouts.delivery')
+    </section>
+
+    <section id="location">
+        @include('layouts.location')
+    </section>
+
         @include ('layouts.footer')
 </body>
 </html>
