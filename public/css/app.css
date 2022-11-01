@@ -474,6 +474,7 @@ html, body {
   height: 2px;
 }
 
+
 html, body {
   margin: 0;
   padding: 0;
@@ -515,4 +516,32 @@ html, body {
   border: solid 3px #b66f47;
   color: black;
   cursor: pointer;
+
+.bs-block-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.bs-block-wrapper .item {
+  width: 500px;
+  background: #f8f4f4;
+  margin-top: 50px;
+}
+.bs-block-wrapper .item img {
+  width: 100%;
+}
+.bs-block-wrapper .item .bs-body {
+  padding: 20px;
+}
+.bs-block-wrapper .item .bs-body .top-row {
+  display: flex;
+  justify-content: space-between;
+}
+.bs-block-wrapper .item .bs-body p {
+  text-align: justify;
+}
+
+.hidden {
+  display: none;
+
 }
