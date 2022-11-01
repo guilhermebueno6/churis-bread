@@ -14,6 +14,9 @@
     <section id="membership">
         @include('layouts.membership')
     </section>
+    <section id="membership">
+        @include('layouts.delivery')
+    </section>
 
         @include ('layouts.footer')
 </body>
