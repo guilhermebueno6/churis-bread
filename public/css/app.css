@@ -541,6 +541,55 @@ html, body {
   cursor: pointer;
 }
 
+.topics {
+  display: flex;
+  gap: 15px;
+  background-color: #703e21;
+  justify-content: space-between;
+}
+.topics #specialties .topic-background {
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.4), rgba(112, 62, 33, 0.4)), url("/images/specialties.jpg") no-repeat top center;
+  background-size: cover;
+}
+.topics #our-story .topic-background {
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.4), rgba(112, 62, 33, 0.4)), url("/images/our-story.jpg") no-repeat top center;
+  background-size: cover;
+}
+.topics #ingredients .topic-background {
+  background: linear-gradient(to top, rgba(112, 62, 33, 0.4), rgba(112, 62, 33, 0.4)), url("/images/ingredients.jpg") no-repeat top center;
+  background-size: cover;
+}
+.topics .topics-item {
+  background-repeat: no-repeat;
+  width: 30%;
+  text-align: center;
+  overflow: hidden;
+  max-height: 800px;
+}
+.topics .topics-item .topic-background {
+  height: 800px;
+  width: 100%;
+}
+.topics .topics-item .topic-text {
+  position: absolute;
+  width: 30%;
+  transform: translateY(-190%);
+  padding: 50px 0;
+  height: 200px;
+  color: #FFFFFF;
+}
+.topics .topics-item .topic-text h1 {
+  font-size: xx-large;
+}
+.topics .topics-item .topic-text p {
+  font-size: x-large;
+  padding: 0 50px;
+}
+
+.map {
+  margin-bottom: 25px;
+}
+
 .hidden {
   display: none;
 }
