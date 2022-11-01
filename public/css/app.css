@@ -462,14 +462,15 @@ html, body {
 .title-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .title-wrapper .title {
   font-size: xx-large;
+  margin: 0 30px;
 }
 .title-wrapper .line {
-  width: 40%;
+  width: 30%;
   background: #703e21;
   height: 2px;
 }
