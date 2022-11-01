@@ -11,6 +11,10 @@
         @include('layouts.bestsellers')
     </section>
 
+    <section id="membership">
+        @include('layouts.membership')
+    </section>
+
         @include ('layouts.footer')
 </body>
 </html>
