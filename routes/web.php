@@ -18,39 +18,13 @@ Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle']
 Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback']);
 
 Route::get('/', function () {
-    Mapper::map(
-        43.008333019353415, 
-        -81.24089793536393,
-        [
+    Mapper::location('1040 Adelaide St N, London, ON N5Y 2M9')->map([
             'zoom' => 16,
-            'draggable' => false,
-            'marker' => true,
-            'title' => 'Churis Bread'
-        ]
-        );
+            'title' => 'Churis Bread',
+    ]);
     return view('index')->withTitle('Churis Bread');
     
        
 });
-
-Route::get('/location', function () {
-    Mapper::map(
-        53.3,
-        -1.4,
-        [
-            'zoom' => 16,
-            'draggable' => false,
-            'marker' => true,
-            
-
-        ]
-        );
-        print '<div style="height: 400px; width: 400px">';
-        print Mapper::render();
-        print '</div>';
-});
-
-
-
 
 require __DIR__.'/auth.php';
