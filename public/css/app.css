@@ -52,7 +52,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
+  height: 100px;
   width: 100%;
 }
 
@@ -78,7 +78,11 @@
 }
 
 .logo img {
-  height: 100%;
+  width: 80px;
+  margin: 10px 10px 10px 45px;
+}
+.logo:hover {
+  cursor: pointer;
 }
 
 .footer {
@@ -284,7 +288,8 @@
           animation-name: animation1;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
-  height: 750px;
+  margin: 5rem;
+  width: 600px;
 }
 
 @-webkit-keyframes animation1 {
@@ -309,7 +314,7 @@
   }
 }
 #viewProducts {
-  margin-top: -60px;
+  margin-top: 10rem 0;
   opacity: 0.7;
   background-color: white;
   color: #703e21;
@@ -318,7 +323,9 @@
   font-size: larger;
   transition: 0.2s ease-in-out 0s;
 }
-
+#viewProducts p {
+  margin-bottom: 0;
+}
 #viewProducts:hover {
   cursor: pointer;
   opacity: 0.9;
@@ -499,12 +506,6 @@ html, body {
   text-align: justify;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins";
-}
-
 .mycontainer {
   display: flex;
   justify-content: center;
@@ -542,6 +543,11 @@ html, body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1000px) {
+  .membership {
+    width: 80%;
+  }
+}
 .topics {
   display: flex;
   gap: 15px;
@@ -574,7 +580,7 @@ html, body {
 .topics .topics-item .topic-text {
   position: absolute;
   width: 30%;
-  transform: translateY(-190%);
+  transform: translateY(-250%);
   padding: 50px 0;
   height: 200px;
   color: #FFFFFF;
@@ -587,10 +593,93 @@ html, body {
   padding: 0 50px;
 }
 
-.map {
-  margin-bottom: 25px;
+#location h2 {
+  text-align: center;
 }
 
+#reviews {
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+#reviews .fa-solid {
+  font-size: 50px;
+  position: absolute;
+  transform: translateY(-450%);
+  transition: all 0.2s;
+}
+#reviews .fa-solid:hover {
+  cursor: pointer;
+  font-size: 51px;
+}
+#reviews .fa-chevron-right {
+  right: 2rem;
+}
+#reviews .fa-chevron-left {
+  left: 2rem;
+}
+
+.review {
+  background-color: #e4c3aa;
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  padding: 0 50px;
+  flex-shrink: 0;
+}
+.review img {
+  width: 200px;
+  border-radius: 100px;
+  position: absolute;
+  transform: translateY(-80%);
+}
+.review .stars {
+  margin-top: 10rem;
+}
+.review .review-body {
+  font-weight: 500;
+  text-align: justify;
+}
+.review .review-quote {
+  align-self: flex-end;
+  font-weight: 500;
+}
+
+.reviewCarousel {
+  display: flex;
+  margin-top: 7rem;
+  justify-content: space-evenly;
+  gap: 12rem;
+  transition: all 0.5s ease-out;
+}
+
+.active {
+  background-color: #d8a986 !important;
+  margin-top: 1% !important;
+}
+
+@media only screen and (max-width: 1800px) {
+  .review {
+    width: 100%;
+  }
+}
 .hidden {
   display: none;
+}
+
+section {
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1001px) {
+  .hidden-on-desktop {
+    display: none;
+  }
 }

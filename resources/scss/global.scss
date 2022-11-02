@@ -1,3 +1,25 @@
 .hidden{
     display: none;
 }
+section{
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1000px){
+    
+    .hidden-on-mobile{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1001px){
+
+    .hidden-on-desktop{
+        display: none;
+    }
+
+}
+
+
+

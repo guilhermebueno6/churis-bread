@@ -123,7 +123,8 @@
 .logoanimated{
     animation-name: animation1;
     animation-duration: 3s;
-    height: 750px;
+    margin: 5rem;
+    width: 600px;
 }
 @keyframes animation1 {
     0%   {opacity: 0; transform: translateY(-80px);}
@@ -131,7 +132,7 @@
 }
 
 #viewProducts{
-    margin-top: -60px;
+    margin-top: 10rem 0;
     opacity: 0.7;
     background-color: white;
     color: #703e21;
@@ -139,12 +140,16 @@
     border-radius: 20px;
     font-size: larger;
     transition: .2s ease-in-out 0s;
+    p{
+        margin-bottom: 0;
+    }
+    &:hover{
+        cursor: pointer;
+        opacity: 0.9;
+        transform: scale(1.25);
+    }
 }
-#viewProducts:hover{
-    cursor: pointer;
-    opacity: 0.9;
-    transform: scale(1.25);
-}
+
 .line h2{
     width: 100%; 
     text-align: center; 

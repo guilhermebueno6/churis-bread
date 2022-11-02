@@ -1,4 +1,4 @@
-    <div class="title-wrapper">
+    <div class="title-wrapper mb-5">
         <span class="line"></span>
         <h1 class="title">Best Sellers</h1>
         <span class="line"></span>

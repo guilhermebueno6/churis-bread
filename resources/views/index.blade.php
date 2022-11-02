@@ -14,14 +14,11 @@
         @include('layouts.our-company')
     </section>
 
-    <section id="membership">
+    <section id="membership" class="hidden">
         @include('layouts.membership')
     </section>
-    <section id="membership">
-        @include('layouts.delivery')
-    </section>
 
-    <section id="delivery">
+    <section id="delivery" class="hidden">
         @include('layouts.delivery')
     </section>
 
@@ -29,6 +26,11 @@
         @include('layouts.location')
     </section>
 
+    <section id="reviews">
+        @include('layouts.reviews')
+    </section>
+
         @include ('layouts.footer')
+        
 </body>
 </html>
