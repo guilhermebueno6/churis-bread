@@ -52,3 +52,16 @@
     
     }
 }
+
+@media screen and (max-width: 600px){
+    .topics{
+        flex-direction: column;
+        align-items: center;
+        .topics-item{
+            width: 100%;
+            .topic-text{
+                width: 100%;
+            }
+        }
+    }
+}

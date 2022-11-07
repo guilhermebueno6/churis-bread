@@ -26,7 +26,7 @@
         @include('layouts.location')
     </section>
 
-    <section id="reviews">
+    <section id="reviews" class="hidden">
         @include('layouts.reviews')
     </section>
 

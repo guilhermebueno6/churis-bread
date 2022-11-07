@@ -8,11 +8,11 @@
             <img src="images/donut.png" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
-                    <h3>Nutella filled donuts</h3>
-                    <h3 class="price">$4.50/ea</h3>
+                    <h3>Sourdough</h3>
+                    <h3 class="price">$0.90/ea</h3>
                 </div>
-                <p>Ingredients:<br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <br>
+                <p>Our levain (Churis) has been maturing and improving in the last 5 years, which transforms completely a simple combination of flour, water and salt. Our sourdough is available in 3 different versions: White, Blended and Multigrains.</p>
 
             </div>
         </div>
@@ -20,11 +20,11 @@
             <img src="images/sourdough.png" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
-                    <h3>Nutella filled donuts</h3>
+                    <h3>Loaves</h3>
                     <h3 class="price">$4.50/ea</h3>
                 </div>
-                <p>Ingredients:<br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <br>
+                <p>Our loaves are carefully mixed with no additives or improvers and fermented in order to offer a perfect softness and texture to upgrade your sanduiches. There are 3 different versions available: White, Wholewheat and Multigrains.</p>
 
             </div>
         </div>
@@ -32,11 +32,11 @@
             <img src="images/pao_frances.png" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
-                    <h3>Nutella filled donuts</h3>
+                    <h3>Croissant</h3>
                     <h3 class="price">$4.50/ea</h3>
                 </div>
-                <p>Ingredients:<br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <br>
+                <p>Our 24 hours fermented laminated dough made from scratch with real butter, which provides several layers of butter and crispy golden brown dough, available in 4 different flavours: Plain, Ham and Cheese, Spinach and Feta, and pain au chocolat (chocolate).</p>
 
             </div>
         </div>
@@ -44,11 +44,11 @@
             <img src="images/pao_branco.png" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
-                    <h3>Nutella filled donuts</h3>
+                    <h3>Baguette</h3>
                     <h3 class="price">$4.50/ea</h3>
                 </div>
-                <p>Ingredients:<br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <br>
+                <p>High hydration dough adding to a polish starter, and olive oil, to promote the crunchiness and flavour typical of a real fresh baguette. Our baguettes are an upgrade for your sandwiches.</p>
 
             </div>
         </div>
@@ -56,11 +56,11 @@
             <img src="images/pain_au_chocolat.png" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
-                    <h3>Nutella filled donuts</h3>
+                    <h3>Scones</h3>
                     <h3 class="price">$4.50/ea</h3>
                 </div>
-                <p>Ingredients:<br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <br>
+                <p>Our scones are prepared from scratch. No pre-mixes are added. They are a good option combined with coffee and tea. They are available in 6 different flavours: Lemon blueberry, white chocolate raspberry, strawberry with pineapple topping, Apple caramel, Cinamon, and triple chocolate.</p>
 
             </div>
         </div>
@@ -68,11 +68,11 @@
             <img src="images/cupcake.png" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
-                    <h3>Nutella filled donuts</h3>
+                    <h3>Cinnamon Buns</h3>
                     <h3 class="price">$4.50/ea</h3>
                 </div>
-                <p>Ingredients:<br>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <br>
+                <p>Soft dough filled with butter, brown sugar and cinnamon, and topped with our in house cream cheese topping. Available in 2 different versions: Big (individual) and Mini (pack of 6).</p>
 
             </div>
         </div>

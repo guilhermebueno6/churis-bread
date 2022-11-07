@@ -107,6 +107,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 5rem;
 }
 
 .footerlinks {
@@ -148,6 +149,16 @@
   margin: 5px;
 }
 
+@media screen and (max-width: 600px) {
+  .footerlinks {
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 25px;
+  }
+  .social {
+    width: 150px;
+  }
+}
 .body, html {
   font-family: "Poppins";
   scroll-behavior: smooth;
@@ -462,6 +473,12 @@ html, body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  .logoanimated {
+    margin: 5rem 0;
+    width: 80%;
+  }
+}
 #best-sellers {
   padding: 50px;
 }
@@ -593,6 +610,18 @@ html, body {
   padding: 0 50px;
 }
 
+@media screen and (max-width: 600px) {
+  .topics {
+    flex-direction: column;
+    align-items: center;
+  }
+  .topics .topics-item {
+    width: 100%;
+  }
+  .topics .topics-item .topic-text {
+    width: 100%;
+  }
+}
 #location h2 {
   text-align: center;
 }
