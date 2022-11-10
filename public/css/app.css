@@ -511,6 +511,7 @@ html, body {
 }
 .bs-block-wrapper .item img {
   width: 100%;
+  filter: saturate(1.5);
 }
 .bs-block-wrapper .item .bs-body {
   padding: 20px;
@@ -523,6 +524,11 @@ html, body {
   text-align: justify;
 }
 
+@media screen and (max-width: 600px) {
+  #best-sellers {
+    padding: 10px;
+  }
+}
 .mycontainer {
   display: flex;
   justify-content: center;
