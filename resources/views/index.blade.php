@@ -4,7 +4,7 @@
     <div class="mycontainer">
         <div class="intro-section">
             <div><img class="logoanimated" src="images/logoWhite.png"></div>
-            <div id="viewProducts" onclick="location.href='#bestsellers'"><p>VIEW PRODUCTS</p></div>
+            <div id="viewProducts" onclick="location.href='#best-sellers'"><p>VIEW PRODUCTS</p></div>
         </div>
     </div>
     <section id="best-sellers">
