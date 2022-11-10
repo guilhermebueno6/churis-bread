@@ -492,6 +492,7 @@ html, body {
 .title-wrapper .title {
   font-size: xx-large;
   margin: 0 30px;
+  text-transform: uppercase;
 }
 .title-wrapper .line {
   width: 30%;

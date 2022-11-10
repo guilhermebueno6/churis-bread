@@ -1,6 +1,6 @@
     <div class="title-wrapper mb-5">
         <span class="line"></span>
-        <h1 class="title">Best Sellers</h1>
+        <h1 class="title">Our Products</h1>
         <span class="line"></span>
     </div>
     <div class="bs-block-wrapper">
