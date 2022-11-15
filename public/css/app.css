@@ -629,8 +629,10 @@ html, body {
     width: 100%;
   }
 }
-#location h2 {
-  text-align: center;
+.location-business-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
 }
 
 #reviews {
