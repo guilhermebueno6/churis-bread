@@ -30,8 +30,8 @@
 
     <div class="mycontainer">
         <div class="header">
-            <div class="preheader hidden">
-                <h3 class="my-2">Free Delivery on all orders above 20$</h3>
+            <div class="preheader">
+                <a href="tel:(548)689-9675"><h3 class="my-2">Need catering? Click here to call us!</h3></a>
             </div>
             <div class="mainheader">
                 <div class="logo">
