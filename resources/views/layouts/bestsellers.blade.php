@@ -5,7 +5,7 @@
     </div>
     <div class="bs-block-wrapper">
         <div class="item">
-            <img src="images/products/sourdough.jpeg" alt="Churis Bread Products">
+            <img src="images/products/sourdough.jpg" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
                     <h3>Sourdough</h3>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/products/white-loaf.jpeg" alt="Churis Bread Products">
+            <img src="images/products/loaf.jpg" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
                     <h3>Loaves</h3>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/products/croissant.jpeg" alt="Churis Bread Products">
+            <img src="images/products/croissant.jpg" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
                     <h3>Croissant</h3>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/products/baguette.jpeg" alt="Churis Bread Products">
+            <img src="images/products/baguette.jpg" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
                     <h3>Baguette</h3>
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/products/blueberry-scone.jpeg" alt="Churis Bread Products">
+            <img src="images/products/scones.jpg" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
                     <h3>Scones</h3>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/products/cinnamon-roll.jpeg" alt="Churis Bread Products">
+            <img src="images/products/cinnamon-roll.jpg" alt="Churis Bread Products">
             <div class="bs-body">
                 <div class="top-row">
                     <h3>Cinnamon Rolls</h3>

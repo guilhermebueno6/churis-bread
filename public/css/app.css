@@ -169,7 +169,7 @@
 }
 
 .intro-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/heroImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/products/hero.jpg");
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -516,7 +516,6 @@ html, body {
 }
 .bs-block-wrapper .item img {
   width: 100%;
-  filter: saturate(1.5);
 }
 .bs-block-wrapper .item .bs-body {
   padding: 20px;
